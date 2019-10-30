@@ -28,3 +28,4 @@ pynvx==0.0.4 ; sys_platform == "darwin"
 #    compile tensorflow yourself or download a custom version.
 #    Install 1.12.0<=tensorflow-gpu<=1.13.0 for CUDA 9.0
 #    or 1.13.1<=tensorflow-gpu<1.15 for CUDA 10.0
+tensorflow-gpu==1.12.0
