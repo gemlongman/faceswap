@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ The master faceswap.py script """
 import sys
+import os
 
 import lib.cli as cli
 
@@ -17,6 +18,7 @@ def bad_args(args):
 
 
 if __name__ == "__main__":
+    os.environ["CUDA_VISIBLE_DEVICES"] = '3'
     PARSER = cli.FullHelpArgumentParser()
     SUBPARSER = PARSER.add_subparsers()
     EXTRACT = cli.ExtractArgs(SUBPARSER,
