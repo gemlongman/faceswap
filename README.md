@@ -198,3 +198,51 @@ Here's a slightly more in depth video that tries to explain the basic functionin
 [![How Machines Learn](https://img.youtube.com/vi/aircAruvnKk/0.jpg)](https://www.youtube.com/watch?v=aircAruvnKk)
 
 tl;dr: training data + trial and error
+
+
+#runable env
+absl-py             0.8.1    
+astor               0.8.0    
+certifi             2019.9.11
+cycler              0.10.0   
+decorator           4.4.0    
+fastcluster         1.1.25   
+ffmpy               0.2.2    
+gast                0.3.2    
+grpcio              1.24.1   
+h5py                2.9.0    
+imageio             2.5.0    
+imageio-ffmpeg      0.3.0    
+joblib              0.14.0   
+Keras               2.2.4    
+Keras-Applications  1.0.8    
+Keras-Preprocessing 1.1.0    
+kiwisolver          1.1.0    
+Markdown            3.1.1    
+matplotlib          2.2.2    
+networkx            2.4      
+numpy               1.16.2   
+nvidia-ml-py3       7.352.1  
+opencv-python       4.1.1.26 
+pathlib             1.0.1    
+Pillow              6.1.0    
+pip                 19.2.3   
+protobuf            3.10.0   
+psutil              5.6.3    
+pyparsing           2.4.2    
+python-dateutil     2.8.0    
+pytz                2019.3   
+PyWavelets          1.1.1    
+PyYAML              5.1.2    
+scikit-image        0.16.1   
+scikit-learn        0.21.3   
+scipy               1.3.1    
+setuptools          41.4.0   
+six                 1.12.0   
+tensorboard         1.12.2   
+tensorflow-gpu      1.12.0   
+termcolor           1.1.0    
+toposort            1.5      
+tqdm                4.36.1   
+Werkzeug            0.16.0   
+wheel               0.33.6
