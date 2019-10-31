@@ -44,7 +44,7 @@ sorting and remove-faces
     可能需要重新对齐
 training：
     AB使用同一个权重的encoder，使用不同的Decoder,loss是生成图和原图的差异，反馈给encoder和decoder。转换时候使用另一个decoder 
-    Batch Size is the size of the batch that is fed through the Neural Network at the same time.Higher batch sizes will train faster, but will lead to higher generalization. Lower batch sizes will train slower, but will distinguish differences between faces better.
+    Batch Size is the size of the batch that is fed through the Neural Network at the same time.Higher batch sizes will train faster, but will lead to higher generalization. Lower batch sizes will train slower, but will distinguish differences between faces better.batch sizes in the 8 to 16 range likely produce better quality. 
     bs 太大速度快，丢失细节。bs1024在2000张，10000次迭代是出现了loss激增，默认64，为了细节，建议更小一些
     An epoch is one complete representation of the data fed through the Neural Network
     An iteration is one complete batch processed through the Neural Network. 
